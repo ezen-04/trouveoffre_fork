@@ -9,6 +9,9 @@ Un notebook, c'est bien, mais, une architecture solide, c'est encore mieux. C'es
 ```bash
 assets/
 │
+├── __init__.py
+├── main.py
+│
 ├── core
 │   ├── config.py
 │   └── 
@@ -18,12 +21,19 @@ assets/
 │   ├── linux.py
 │   └── windows.py
 │
-├── 
-│   ├── config.py
-│   └── Script_Modélisation-Ez
+├── worker
+│   ├── .py
+│   └── creer_excel.py
 │
-├── core
-│   ├── config.py
-│   └── Script_Modélisation-Ez
+├── db
+│   ├── data.db
+│   └── .py
 │
+├── scrapper
+│   ├── ouvrir_page.py
+│   └── navigateur.py
+│
+├── .gitignore
+├── requirements.txt
+└── README.md
 ```
