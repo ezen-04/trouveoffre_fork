@@ -1,21 +1,29 @@
-# trouveoffre
-notebook pour trouver offre
-🎯 Automatiser sa recherche d'emploi ? Challenge accepté !
+# trouveoffre (Version 2.0.0)
+Le notebook pour trouver des offres et postuler a été remplacé par une architecture modulaire plus élaborée.
 
-Ces dernières semaines, j’ai codé un petit bot en Python pour m’aider à suivre les offres d’emploi qui correspondent à mon profil (data analyst, data scientist, business analyst, etc.) sur des plateformes comme Indeed, HelloWork, Welcome to the Jungle et LinkedIn.
+🎯 Automatiser sa recherche d'emploi ? Un challenge assez intéressant ! <br>
+Un notebook, c'est bien, mais, une architecture solide, c'est encore mieux. C'est pourquoi, la première version du projet **``trouveoffre``** a été améliorer pour cette nouvelle version basé sur une architecture plus élaborée et une manipulabilité beaucoup plus prononcée.
 
-💡 Ce script :
+## Architecture
 
-Cherche automatiquement les offres avec mes mots-clés et types de contrat préférés
-
-Filtre celles déjà vues grâce à une base SQLite
-
-Et me sort un fichier Excel tout propre avec les nouveautés du jour 📊
-
-L’objectif : gagner du temps, ne rien louper, et apprendre en s’amusant !
-
-C’est encore un projet en cours d’amélioration (UI Streamlit, automatisation quotidienne à venir), mais je suis super contente de pouvoir l’utiliser au quotidien dans ma recherche.
-
-👉 Si ça vous intéresse, je serais ravie d’échanger ou de partager le code !
-
-#Python #DataJob #Automatisation #Scraping #JobSearch #DataAnalyst #PortfolioProject
+```bash
+assets/
+│
+├── core
+│   ├── config.py
+│   └── 
+│
+├── system
+│   ├── macos.py
+│   ├── linux.py
+│   └── windows.py
+│
+├── 
+│   ├── config.py
+│   └── Script_Modélisation-Ez
+│
+├── core
+│   ├── config.py
+│   └── Script_Modélisation-Ez
+│
+```
