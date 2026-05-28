@@ -37,3 +37,16 @@ assets/
 ├── requirements.txt
 └── README.md
 ```
+
+## Notes techniques
+
+### Playwright
+-   Après avoir installé le package Playwright, il faudra exécuter la commande suivante dans le terminal:
+```bash
+playwright install
+```
+
+-   Ensuite, on vérifie que le tout est bien installé et configuré avec la commande suivante:
+```bash
+python -m playwright --version
+```
