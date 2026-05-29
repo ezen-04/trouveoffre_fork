@@ -6,47 +6,44 @@ Un notebook, c'est bien, mais, une architecture solide, c'est encore mieux. C'es
 
 ## Architecture
 
-```bash
+```
 assets/
 │
 ├── __init__.py
+├── start.py
 ├── main.py
 │
 ├── core
 │   ├── config.py
-│   └── 
+│   └── auto_config.py
 │
 ├── system
-│   ├── macos.py
-│   ├── linux.py
-│   └── windows.py
+│   └── detect.py
 │
 ├── worker
-│   ├── .py
-│   └── creer_excel.py
+│   ├── scraper.py
+│   └── fichier.py
 │
 ├── db
-│   ├── data.db
-│   └── .py
+│   ├── jobs.db 
+│   └── session.py
 │
-├── scrapper
-│   ├── ouvrir_page.py
-│   └── navigateur.py
-│
-├── .gitignore
+├── offres/
+├── .gitignore 
 ├── requirements.txt
 └── README.md
 ```
 
 ## Notes techniques
+Vous voulez l'utiliser ? Rien de plus simple ! Il vous suffit de suivre les étapes suivantes:
+- Installer Python si cela n'est pas encore fait :
+Allez à l'adresse officielle [en cliquant ici]() ou en allant dans votre App store.
 
-### Playwright
--   Après avoir installé le package Playwright, il faudra exécuter la commande suivante dans le terminal:
+- Ouvrez le fichier config se trouvant dans le dossier core, et dans la variable config, veuillez entrer vos préférences en terme d'offre.
+
+- Assurez d'être connecté à internet, ouvrez votre terminal, placez vous dans le dossier où vous avez téléchargé le contenu de ce dépôt, puis exécutez la commande suivante:
 ```bash
-playwright install
+python start.py
 ```
 
--   Ensuite, on vérifie que le tout est bien installé et configuré avec la commande suivante:
-```bash
-python -m playwright --version
-```
+Le script va s'exécuter tout seul, du début à la fin.
