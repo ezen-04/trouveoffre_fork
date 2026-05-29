@@ -1,11 +1,11 @@
 # Importation des dépendances
 import sqlite3
-from core.config import DB_URL
+from core.config import db_url
 from core.auto_config import now
 
 
 # Connexion à la base de données
-conn = sqlite3.connect(DB_URL)
+conn = sqlite3.connect(db_url)
 c = conn.cursor()
 c.execute('''CREATE TABLE IF NOT EXISTS jobs (title TEXT, link TEXT UNIQUE, date TEXT)''')
 

@@ -37,7 +37,7 @@ assets/
 ## Notes techniques
 Vous voulez l'utiliser ? Rien de plus simple ! Il vous suffit de suivre les étapes suivantes:
 - Installer Python si cela n'est pas encore fait :
-Allez à l'adresse officielle [en cliquant ici]() ou en allant dans votre App store.
+Allez à l'adresse officielle [en cliquant ici](https://www.python.org/downloads/) ou en allant dans votre App store.
 
 - Ouvrez le fichier config se trouvant dans le dossier core, et dans la variable config, veuillez entrer vos préférences en terme d'offre.
 

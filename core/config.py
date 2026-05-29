@@ -6,7 +6,7 @@ config = {
 }
 
 # base de données
-DB_URL = 'db/jobs.db'
+db_url = 'db/jobs.db'
 
 
 # Liens vers pages d'offres
@@ -19,3 +19,6 @@ links = {
     "Pole Emploi" : ["https://www.pole-emploi.fr/l'emploi-et-la-formation/recherche-emploi.html?keywords=", "&location=", "/offre", "https://www.indeed.fr"],
     "APEC" : ["https://www.apec.fr/candidat/recherche-offres-emploi.html?keywords=", "&location=", "/offre", "https://www.apec.fr"]
 }
+
+# venv et consort
+venv_name = "venv"
