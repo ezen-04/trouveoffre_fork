@@ -25,10 +25,10 @@ assets/
 │   └── fichier.py
 │
 ├── db
-│   ├── jobs.db 
+│   ├── jobs.db     # auto-généré
 │   └── session.py
 │
-├── offres/
+├── offres/         # auto-généré
 ├── .gitignore 
 ├── requirements.txt
 └── README.md
@@ -47,3 +47,10 @@ python start.py
 ```
 
 Le script va s'exécuter tout seul, du début à la fin.
+
+## Améliorations apportées
+- Simplicité d'exécution : Plus besoin de manipuler un notebook où en une simple erreur d'attention et de manipulation, tu peux modifier le script et par la suite te retrouver avec des erreurs.
+
+- Architecture modulaire : Beaucoup plus `safe` et facile à maintenir.
+
+- Un proccessus quasi-automatisé: Plus aucun soucis à se faire. Il suffit juste de modifier les critères de recherche dans le fichier config, puis de lancer le fichier start et le tour est joué !
