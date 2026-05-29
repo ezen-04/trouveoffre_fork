@@ -1,13 +1,9 @@
-# Spécification de recherche d'offres
+# Spécification de recherche d'offres, modifier vos préférences ici ! 👇🏾
 config = {
     "keywords": ["data analyst", "data scientist", "business analyst", "VBA"],
     "location": "Nantes",
     "contract_types": ["CDI", "CDD", "Alternance"]
 }
-
-# base de données
-db_url = 'db/jobs.db'
-
 
 # Liens vers pages d'offres
 links = {
@@ -20,5 +16,8 @@ links = {
     "APEC" : ["https://www.apec.fr/candidat/recherche-offres-emploi.html?keywords=", "&location=", "/offre", "https://www.apec.fr"]
 }
 
-# venv et consort
+
+# base de données
+db_url = 'db/jobs.db'
+# environnement virtuel
 venv_name = "venv"
